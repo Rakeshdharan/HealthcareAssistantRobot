@@ -14,3 +14,9 @@ other healthcare workers, are working excruciatingly hard for the 'welfare of th
 
 - However, the threat of them being affected by the disease and infecting their own families looms large over
 them. Shortage of `Personal Protective Equipment (PPE)` and lack of definite cure are factors which adds fuel to the fire.
+
+> To run the ***simulation***
+
+- [x] roslaunch `<package name>` spawn.launch ***TO launch HealthCare Assistant Robot in hospital environment GAZEBO***
+- [x] roslaunch `<package name>` rviz.launch ***To Visualize the simulation in rviz***
+- [x] rosrun teleop_twist_keyboard teleop_twist_keyboard.py  ***To teleoperate the robot using keyboard***
