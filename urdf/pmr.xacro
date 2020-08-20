@@ -37,7 +37,7 @@
 
   <!-- Camera link with joints -->
 
-  <xacro:fixed_joint name="camera_joint"   parent="link_chassis"  child="camera_link" origin_xyz="0.25 0 0.9" origin_rpy="0 0 0"/> 
+  <xacro:fixed_joint name="camera_joint"   parent="link_chassis"  child="camera_link" origin_xyz="0.25 0 0.525" origin_rpy="0 0 0"/> 
 
   <link name="camera_link">
     <visual>
